@@ -11,3 +11,7 @@ Beachten Sie bitte die korrekte Wahl der Beispiele auf Grund der Einteilung am A
 |link:01_ABC_exercise_selection/description{outfilesuffix}[Angabe]
 |link:01_ABC_exercise_selection/description{outfilesuffix}[Angabe]
 |===
+
+## Projekt-Angaben für die Fastlane
+
+* link:fast_lane/popart_image_generator/popart_image_generator{outfilesuffix}[Popart-Generator]
