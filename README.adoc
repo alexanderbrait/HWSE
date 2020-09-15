@@ -1,0 +1,13 @@
+## Fernlehraufgaben
+
+Hier finden Sie zur rechten Zeit alle für die Fernlehre notwendigen Angaben.
+Beachten Sie bitte die korrekte Wahl der Beispiele auf Grund der Einteilung am Anfang des Semesters.
+
+[cols=4*^,options="header"]
+|===
+|Einheit |A |B |C
+|1
+|link:01_ABC_exercise_selection/description{outfilesuffix}[Angabe]
+|link:01_ABC_exercise_selection/description{outfilesuffix}[Angabe]
+|link:01_ABC_exercise_selection/description{outfilesuffix}[Angabe]
+|===

@@ -1,0 +1,26 @@
+:exercise-name: Exercise Selection
+:stem:
+
+= {exercise-name}
+
+Die folgende Aufgabenstellung dient zur Überprüfung des Build-Prozesses und dem Umgang damit.
+
+== Aufgabenstellung
+
+Schreiben Sie ein Programm, das Ihren vollständigen Namen, Ihre Matrikelnummer und die für Sie vorgesehene Gruppe (in der Form "A", "B", oder "C") ausgibt.
+Sie können das Beispiel mittels `puts()` lösen.
+Besser wäre eine Lösung mit `printf()`, bei der zumindest Matrikelnummer und Gruppe als Parameter übergeben werden.
+
+====
+.Beispiel einer Ausgabe
+----
+Maria Mustermann,
+0123456789,
+A
+----
+====
+
+
+== Hinweise
+
+* Der Compiler interpretiert Ganzzahlen, die im Quellcode mit 0 beginnen, als Oktalzahl.
