@@ -1,0 +1,36 @@
+:exercise-name: Middle
+
+= {exercise-name}
+
+Die folgende Aufgabenstellung dient der Übung von Operatoren, Entscheidungen und Auswahlen.
+Achten Sie dabei immer auf eine entsprechende Absicherung Ihres Programms, z.B. keine Division durch 0.
+
+
+
+== Aufgabenstellung
+
+Schreiben Sie ein Programm 02_Middle, welches aus den folgenden Ganzzahlen den mittleren der drei Werte herausfindet und ausgibt.
+Dividieren Sie diesen Wert durch 3 und geben Sie dann den Rest in einer Auswahl (`switch`) als Text aus ("Null", "Eins", oder "Zwei").
+
+Folgende Ganzzahlen sollen verwendet werden:
+
+- Zahl_1: 22
+- Zahl_2: 65
+- Zahl_3: die letzen 2 Stellen Ihres Studentenkennzeichens (zum Beispiel: 1810258099 -> 99)
+
+====
+.Beispiel eines Aufrufs
+----
+$ ./02_Middle
+OUTPUT: 
+Zahl_1: 22
+Zahl_2: 64
+Zahl_3: 99
+Der mittlere Wert ist: 64
+Der Divisionsrest ist: Eins
+----
+====
+
+== Hinweise
+
+* Zur Berechnung des Rests können Sie den Rest-Operator (`%`).

@@ -1,0 +1,36 @@
+:exercise-name: Minimum
+
+= {exercise-name}
+
+Die folgende Aufgabenstellung dient der Übung von Operatoren, Entscheidungen und Auswahlen.
+Achten Sie dabei immer auf eine entsprechende Absicherung Ihres Programms, z.B. keine Division durch 0.
+
+
+
+== Aufgabenstellung
+
+Schreiben Sie ein Programm 02_Minimum, welches aus den folgenden Ganzzahlen das Minimum herausfindet und ausgibt.
+Dividieren Sie diesen Wert durch 3 und geben Sie dann den Rest in einer Auswahl (`switch`) als Text aus ("Null", "Eins", oder "Zwei").
+
+Folgende Ganzzahlen sollen verwendet werden:
+
+- Zahl_1: 47
+- Zahl_2: 92
+- Zahl_3: die letzen 2 Stellen Ihres Studentenkennzeichens (zum Beispiel: 1810258099 -> 99)
+
+====
+.Beispiel eines Aufrufs
+----
+$ ./02_Minimum
+OUTPUT: 
+Zahl_1: 47
+Zahl_2: 92
+Zahl_3: 99
+Das Minimum ist: 47
+Der Divisionsrest ist: Zwei
+----
+====
+
+== Hinweise
+
+* Zur Berechnung des Rests können Sie den Rest-Operator (`%`).

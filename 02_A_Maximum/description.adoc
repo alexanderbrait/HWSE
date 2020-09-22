@@ -1,0 +1,36 @@
+:exercise-name: Maximum
+
+= {exercise-name}
+
+Die folgende Aufgabenstellung dient der Übung von Operatoren, Entscheidungen und Auswahlen.
+Achten Sie dabei immer auf eine entsprechende Absicherung Ihres Programms, z.B. keine Division durch 0.
+
+
+
+== Aufgabenstellung
+
+Schreiben Sie ein Programm 02_Maximum, welches aus den folgenden Ganzzahlen das Maximum herausfindet und ausgibt.
+Dividieren Sie diesen Wert durch 3 und geben Sie dann den Rest in einer Auswahl (`switch`) als Text aus ("Null", "Eins", oder "Zwei").
+
+Folgende Ganzzahlen sollen verwendet werden:
+
+- Zahl_1: 11
+- Zahl_2: 47
+- Zahl_3: die letzen 2 Stellen Ihres Studentenkennzeichens (zum Beispiel: 1810258099 -> 99)
+
+====
+.Beispiel eines Aufrufs
+----
+$ ./02_Maximum
+OUTPUT: 
+Zahl_1: 11
+Zahl_2: 47
+Zahl_3: 99
+Das Maximum ist: 99
+Der Divisionsrest ist: Null
+----
+====
+
+== Hinweise
+
+* Zur Berechnung des Rests können Sie den Rest-Operator (`%`).
